@@ -1,26 +1,26 @@
 {
-  "name": "aoXiv",
-  "pronunciation": "/ ˌeɪ.oʊ.ˈkaɪv /",
-  "topic": "astronomy and astrophysics olympiads",
-  "githubUrl": "https://github.com/bunchofcellulose/aoXiv",
-  "discordUrl": "https://discord.gg/bV8bxvTmzU",
+  "name": "boXiv",
+  "pronunciation": "/ ˈbiː.oʊ.saɪv /",
+  "topic": "biology olympiads",
+  "githubUrl": "https://github.com/darshdudhia/boXiv",
+  "discordUrl": "https://discord.gg/",
   "fork": {
     "text": "This project is a fork of",
     "label": "phoxiv.org",
     "url": "https://phoxiv.org"
   },
   "hero": {
-    "title": "aoXiv",
-    "description": "A comprehensive archive of astronomy and astrophysics olympiads, from the well-known IOAA to national gems like INAO and USAAAO. Includes solutions and grading schemes you rarely find elsewhere.",
+    "title": "boXiv",
+    "description": "A comprehensive archive of biology olympiads, from the well-known IBO to national gems like INBO and USABO. Includes solutions and grading schemes you rarely find elsewhere.",
     "primaryCtaLabel": "Browse olympiads",
     "primaryCtaPath": "/olympiads",
     "secondaryCtaLabel": "Contribute"
   },
   "seo": {
-    "homeTitle": "aoXiv",
-    "homeDescription": "An archive of problems and solutions from various astronomy and astrophysics olympiads. Includes IOAA, INAO, OAC, and many more international, regional, and national competitions.",
-    "homeKeywords": "problems, solutions, olympiad, astronomy, astrophysics, ioaa, inao, oac",
-    "contestKeywords": "problems, solutions, olympiad, astronomy, astrophysics"
+    "homeTitle": "boXiv",
+    "homeDescription": "An archive of problems and solutions from various biology olympiads. Includes IBO, USABO, INBO, and many more international, regional, and national competitions.",
+    "homeKeywords": "problems, solutions, olympiad, biology, ibo, usabo, inbo",
+    "contestKeywords": "problems, solutions, olympiad, biology"
   },
   "navigation": {
     "links": [
