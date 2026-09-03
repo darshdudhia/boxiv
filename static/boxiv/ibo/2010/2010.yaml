@@ -1,0 +1,18 @@
+name: 21st IBO 2010
+location: Changwon, South Korea
+
+papers:
+  - category: Practical Exam
+    solutionLink: /boxiv/ibo/2010/pr_sol.pdf
+    majorCategory: Practical
+    note: Question paper not available in the archive; only solutions were published/kept.
+
+  - category: Theoretical Exam A
+    link: /boxiv/ibo/2010/th_a.pdf
+    solutionLink: /boxiv/ibo/2010/th_a_sol.pdf
+    majorCategory: Theory
+
+  - category: Theoretical Exam B
+    link: /boxiv/ibo/2010/th_b.pdf
+    solutionLink: /boxiv/ibo/2010/th_b_sol.pdf
+    majorCategory: Theory

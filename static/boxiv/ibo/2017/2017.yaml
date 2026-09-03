@@ -1,0 +1,31 @@
+name: 28th IBO 2017
+location: University of Warwick, United Kingdom
+
+papers:
+  - category: Practical Exam 1
+    name: Botany
+    link: /boxiv/ibo/2017/pr1.pdf
+    solutionLink: /boxiv/ibo/2017/pr1_sol.pdf
+    majorCategory: Practical
+
+  - category: Practical Exam 2
+    name: Biochemistry
+    link: /boxiv/ibo/2017/pr2.pdf
+    solutionLink: /boxiv/ibo/2017/pr2_sol.pdf
+    majorCategory: Practical
+
+  - category: Practical Exam 3
+    name: Developmental Physiology
+    link: /boxiv/ibo/2017/pr3.pdf
+    solutionLink: /boxiv/ibo/2017/pr3_sol.pdf
+    majorCategory: Practical
+
+  - category: Theoretical Exam A
+    link: /boxiv/ibo/2017/th_a.pdf
+    solutionLink: /boxiv/ibo/2017/th_a_sol.pdf
+    majorCategory: Theory
+
+  - category: Theoretical Exam B
+    link: /boxiv/ibo/2017/th_b.pdf
+    solutionLink: /boxiv/ibo/2017/th_b_sol.pdf
+    majorCategory: Theory

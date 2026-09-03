@@ -1,0 +1,11 @@
+name: 4th IBO 1993
+location: Utrecht, Netherlands
+
+papers:
+  - category: Practical Exam
+    link: /boxiv/ibo/1993/pr.pdf
+    majorCategory: Practical
+
+  - category: Theoretical Exam
+    link: /boxiv/ibo/1993/th.pdf
+    majorCategory: Theory

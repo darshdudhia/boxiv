@@ -1,0 +1,34 @@
+name: 26th IBO 2015
+location: Aarhus, Denmark
+
+papers:
+  - category: Practical Exam 1
+    name: Plant Anatomy, Biosystematics & Evolution
+    link: /boxiv/ibo/2015/pr1.pdf
+    majorCategory: Practical
+
+  - category: Practical Exam 2
+    name: Molecular Biology
+    link: /boxiv/ibo/2015/pr2.pdf
+    majorCategory: Practical
+
+  - category: Practical Exam 3
+    name: Animal Biology
+    link: /boxiv/ibo/2015/pr3.pdf
+    majorCategory: Practical
+
+  - category: Practical Exam 4
+    name: Biochemistry
+    link: /boxiv/ibo/2015/pr4.pdf
+    majorCategory: Practical
+
+  - category: Theoretical Exam A
+    link: /boxiv/ibo/2015/th_a.pdf
+    solutionLink: /boxiv/ibo/2015/th_a_sol.pdf
+    additionalFiles: [/boxiv/ibo/2015/th_sol_key.pdf]
+    majorCategory: Theory
+
+  - category: Theoretical Exam B
+    link: /boxiv/ibo/2015/th_b.pdf
+    solutionLink: /boxiv/ibo/2015/th_b_sol.pdf
+    majorCategory: Theory

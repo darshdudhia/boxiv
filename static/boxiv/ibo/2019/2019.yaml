@@ -1,0 +1,19 @@
+name: 30th IBO 2019
+location: Szeged, Hungary
+
+papers:
+  - category: Practical Exams 1-4
+    link: /boxiv/ibo/2019/pr.pdf
+    solutionLink: /boxiv/ibo/2019/combined_sol.pdf
+    majorCategory: Practical
+    note: Single combined paper covering Practicals 1-4.
+
+  - category: Theory Exam A
+    link: /boxiv/ibo/2019/th_a.pdf
+    solutionLink: /boxiv/ibo/2019/combined_sol.pdf
+    majorCategory: Theory
+
+  - category: Theory Exam B
+    link: /boxiv/ibo/2019/th_b.pdf
+    solutionLink: /boxiv/ibo/2019/combined_sol.pdf
+    majorCategory: Theory

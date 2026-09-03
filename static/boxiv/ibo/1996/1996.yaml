@@ -1,0 +1,11 @@
+name: 7th IBO 1996
+location: Artek, Ukraine
+
+papers:
+  - category: Practical Exam
+    link: /boxiv/ibo/1996/pr.pdf
+    majorCategory: Practical
+
+  - category: Theoretical Exam
+    link: /boxiv/ibo/1996/th.pdf
+    majorCategory: Theory

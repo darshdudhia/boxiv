@@ -1,0 +1,14 @@
+name: 14th IBO 2003
+location: Minsk, Belarus
+
+papers:
+  - category: Practical Exam
+    link: /boxiv/ibo/2003/pr.pdf
+    solutionLink: /boxiv/ibo/2003/pr_sol.pdf
+    majorCategory: Practical
+
+  - category: Theoretical Exam
+    link: /boxiv/ibo/2003/th.pdf
+    additionalFiles: [/boxiv/ibo/2003/th_a_sol.pdf, /boxiv/ibo/2003/th_b_sol.pdf]
+    majorCategory: Theory
+    note: Question paper combined for versions A/B; solutions published separately per version.

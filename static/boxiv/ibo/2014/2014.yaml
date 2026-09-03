@@ -1,0 +1,19 @@
+name: 25th IBO 2014
+location: Bali, Indonesia
+
+papers:
+  - category: Practical Exams 1-4
+    link: /boxiv/ibo/2014/pr.pdf
+    solutionLink: /boxiv/ibo/2014/pr_sol.pdf
+    majorCategory: Practical
+    note: Single combined paper covering Practicals 1-4.
+
+  - category: Theoretical Exam A
+    link: /boxiv/ibo/2014/th_a.pdf
+    solutionLink: /boxiv/ibo/2014/th_sol.pdf
+    majorCategory: Theory
+
+  - category: Theoretical Exam B
+    link: /boxiv/ibo/2014/th_b.pdf
+    solutionLink: /boxiv/ibo/2014/th_sol.pdf
+    majorCategory: Theory

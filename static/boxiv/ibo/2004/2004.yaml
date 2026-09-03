@@ -1,0 +1,17 @@
+name: 15th IBO 2004
+location: Brisbane, Australia
+
+papers:
+  - category: Practical Exam
+    link: /boxiv/ibo/2004/pr.pdf
+    majorCategory: Practical
+
+  - category: Theoretical Exam A
+    link: /boxiv/ibo/2004/th_a.pdf
+    solutionLink: /boxiv/ibo/2004/th_a_sol.pdf
+    majorCategory: Theory
+
+  - category: Theoretical Exam B
+    link: /boxiv/ibo/2004/th_b.pdf
+    solutionLink: /boxiv/ibo/2004/th_b_sol.pdf
+    majorCategory: Theory

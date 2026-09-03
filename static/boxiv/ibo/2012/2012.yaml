@@ -1,0 +1,18 @@
+name: 23rd IBO 2012
+location: Singapore, Singapore
+
+papers:
+  - category: Practical Exam
+    link: /boxiv/ibo/2012/pr.pdf
+    solutionLink: /boxiv/ibo/2012/pr_sol.pdf
+    majorCategory: Practical
+
+  - category: Theoretical Exam A
+    link: /boxiv/ibo/2012/th_a.pdf
+    solutionLink: /boxiv/ibo/2012/th_sol.pdf
+    majorCategory: Theory
+
+  - category: Theoretical Exam B
+    link: /boxiv/ibo/2012/th_b.pdf
+    solutionLink: /boxiv/ibo/2012/th_sol.pdf
+    majorCategory: Theory

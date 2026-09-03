@@ -1,0 +1,15 @@
+name: 13th IBO 2002
+location: Jurmala-Riga, Latvia
+
+papers:
+  - category: Practical Exam
+    link: /boxiv/ibo/2002/pr.pdf
+    majorCategory: Practical
+
+  - category: Theoretical Exam A
+    link: /boxiv/ibo/2002/th_a.pdf
+    majorCategory: Theory
+
+  - category: Theoretical Exam B
+    link: /boxiv/ibo/2002/th_b.pdf
+    majorCategory: Theory

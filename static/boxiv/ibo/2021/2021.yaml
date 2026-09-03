@@ -1,0 +1,13 @@
+name: IBO Challenge II 2021 (in place of the 32nd IBO)
+location: "Virtual (host: Lisbon, Portugal)"
+
+papers:
+  - category: Theoretical Exam
+    link: /boxiv/ibo/2021/th.pdf
+    solutionLink: /boxiv/ibo/2021/th_sol.pdf
+    majorCategory: Theory
+
+  - category: Theoretical-Practical Exam
+    link: /boxiv/ibo/2021/thpr.pdf
+    solutionLink: /boxiv/ibo/2021/thpr_sol.pdf
+    majorCategory: Practical

@@ -1,0 +1,17 @@
+name: 20th IBO 2009
+location: Tsukuba, Japan
+
+papers:
+  - category: Practical Exam
+    link: /boxiv/ibo/2009/pr.pdf
+    majorCategory: Practical
+
+  - category: Theoretical Exam A
+    link: /boxiv/ibo/2009/th_a.pdf
+    solutionLink: /boxiv/ibo/2009/th_sol.pdf
+    majorCategory: Theory
+
+  - category: Theoretical Exam B
+    link: /boxiv/ibo/2009/th_b.pdf
+    solutionLink: /boxiv/ibo/2009/th_sol.pdf
+    majorCategory: Theory

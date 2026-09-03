@@ -1,0 +1,11 @@
+name: 10th IBO 1999
+location: Uppsala, Sweden
+
+papers:
+  - category: Practical Exam
+    link: /boxiv/ibo/1999/pr.pdf
+    majorCategory: Practical
+
+  - category: Theoretical Exam
+    link: /boxiv/ibo/1999/th.pdf
+    majorCategory: Theory

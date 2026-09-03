@@ -1,0 +1,16 @@
+name: 24th IBO 2013
+location: Bern, Switzerland
+
+papers:
+  - category: Practical Exams 1-4
+    link: /boxiv/ibo/2013/pr.pdf
+    majorCategory: Practical
+    note: Single combined paper covering Practicals 1-4.
+
+  - category: Theoretical Exam 1
+    link: /boxiv/ibo/2013/th_a.pdf
+    majorCategory: Theory
+
+  - category: Theoretical Exam 2
+    link: /boxiv/ibo/2013/th_b.pdf
+    majorCategory: Theory

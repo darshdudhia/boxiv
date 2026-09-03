@@ -1,0 +1,16 @@
+name: 8th IBO 1997
+location: Ashgabat, Turkmenistan
+
+papers:
+  - category: Practical Exam
+    link: /boxiv/ibo/1997/pr.pdf
+    majorCategory: Practical
+
+  - category: Theoretical Exam A
+    link: /boxiv/ibo/1997/th_a.pdf
+    majorCategory: Theory
+
+  - category: Solutions
+    link: /boxiv/ibo/1997/sol.pdf
+    majorCategory: Overall
+    note: Combined solutions document; scope (theory/practical) as published by IBO.

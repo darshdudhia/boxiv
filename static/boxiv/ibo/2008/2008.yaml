@@ -1,0 +1,17 @@
+name: 19th IBO 2008
+location: Mumbai, India
+
+papers:
+  - category: Practical Exam
+    link: /boxiv/ibo/2008/pr.pdf
+    majorCategory: Practical
+
+  - category: Theoretical Exam A
+    link: /boxiv/ibo/2008/th_a.pdf
+    solutionLink: /boxiv/ibo/2008/th_a_sol.pdf
+    majorCategory: Theory
+
+  - category: Theoretical Exam B
+    link: /boxiv/ibo/2008/th_b.pdf
+    solutionLink: /boxiv/ibo/2008/th_b_sol.pdf
+    majorCategory: Theory

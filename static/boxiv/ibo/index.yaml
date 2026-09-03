@@ -1,0 +1,10 @@
+id: ibo
+name: International Biology Olympiad
+shortName: IBO
+website: "https://www.ibo-info.org/"
+summary: International biology olympiad for pre-university students, featuring theoretical and practical exam rounds.
+icon: "🧬"
+tag: International
+url: "https://www.ibo-info.org/en/info/papers.html"
+desc: |
+  The International Biology Olympiad (IBO) is a global competition for pre-university students under the age of 20, held annually since 1990. It features theoretical and practical exam components, with practicals often split across several biology sub-disciplines (biochemistry, molecular biology, plant and animal anatomy, ecology, bioinformatics, and more). This archive contains publicly shared problem and solution PDFs from past IBO editions, sourced from the official IBO archive.

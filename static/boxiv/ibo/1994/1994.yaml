@@ -1,0 +1,11 @@
+name: 5th IBO 1994
+location: Varna, Bulgaria
+
+papers:
+  - category: Practical Exam
+    link: /boxiv/ibo/1994/pr.pdf
+    majorCategory: Practical
+
+  - category: Theoretical Exam
+    link: /boxiv/ibo/1994/th.pdf
+    majorCategory: Theory

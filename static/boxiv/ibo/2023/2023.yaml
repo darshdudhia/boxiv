@@ -1,0 +1,31 @@
+name: 34th IBO 2023
+location: Al Ain, United Arab Emirates
+
+papers:
+  - category: Practical Exam 1
+    name: Biochemistry
+    link: /boxiv/ibo/2023/pr1.pdf
+    majorCategory: Practical
+
+  - category: Practical Exam 2
+    name: Bioinformatics
+    link: /boxiv/ibo/2023/pr2.pdf
+    majorCategory: Practical
+
+  - category: Practical Exam 3
+    name: Ecology and Ethology
+    link: /boxiv/ibo/2023/pr3.pdf
+    majorCategory: Practical
+
+  - category: Practical Exam 4
+    name: Plant Molecular Biology
+    link: /boxiv/ibo/2023/pr4.pdf
+    majorCategory: Practical
+
+  - category: Theory Exam 1
+    link: /boxiv/ibo/2023/th_a.pdf
+    majorCategory: Theory
+
+  - category: Theory Exam 2
+    link: /boxiv/ibo/2023/th_b.pdf
+    majorCategory: Theory

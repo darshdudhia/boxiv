@@ -1,0 +1,37 @@
+name: 33rd IBO 2022
+location: Yerevan, Armenia
+
+papers:
+  - category: Practical Exam 1
+    name: Animal Systematics and Anatomy
+    link: /boxiv/ibo/2022/pr1.pdf
+    majorCategory: Practical
+    note: Answer key is embedded within this PDF.
+
+  - category: Practical Exam 2
+    name: Plant Anatomy and Physiology
+    link: /boxiv/ibo/2022/pr2.pdf
+    majorCategory: Practical
+    note: Answer key is embedded within this PDF.
+
+  - category: Practical Exam 3
+    name: Biochemistry
+    link: /boxiv/ibo/2022/pr3.pdf
+    majorCategory: Practical
+    note: Answer key is embedded within this PDF.
+
+  - category: Practical Exam 4
+    name: Bioinformatics
+    link: /boxiv/ibo/2022/pr4.pdf
+    majorCategory: Practical
+    note: Answer key is embedded within this PDF.
+
+  - category: Theory Exam 1
+    link: /boxiv/ibo/2022/th_a.pdf
+    majorCategory: Theory
+    note: Answer key is embedded within this PDF.
+
+  - category: Theory Exam 2
+    link: /boxiv/ibo/2022/th_b.pdf
+    majorCategory: Theory
+    note: Answer key is embedded within this PDF.

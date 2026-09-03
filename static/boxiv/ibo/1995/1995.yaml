@@ -1,0 +1,12 @@
+name: 6th IBO 1995
+location: Bangkok, Thailand
+
+papers:
+  - category: Practical Exam
+    link: /boxiv/ibo/1995/pr.pdf
+    majorCategory: Practical
+
+  - category: Theoretical Exam
+    link: /boxiv/ibo/1995/th.pdf
+    solutionLink: /boxiv/ibo/1995/th_sol.pdf
+    majorCategory: Theory

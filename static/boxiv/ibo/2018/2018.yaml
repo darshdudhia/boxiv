@@ -1,0 +1,33 @@
+name: 29th IBO 2018
+location: Tehran, Iran
+
+papers:
+  - category: Practical Exam 1
+    name: Animal Systematics, Anatomy and Physiology
+    link: /boxiv/ibo/2018/pr1.pdf
+    majorCategory: Practical
+
+  - category: Practical Exam 2
+    name: Biochemistry and Molecular Biology
+    link: /boxiv/ibo/2018/pr2.pdf
+    majorCategory: Practical
+
+  - category: Practical Exam 3
+    name: Plant Systematics, Anatomy and Physiology
+    link: /boxiv/ibo/2018/pr3.pdf
+    majorCategory: Practical
+
+  - category: Practical Exam 4
+    name: Evolution, Ecology and Behaviour
+    link: /boxiv/ibo/2018/pr4.pdf
+    majorCategory: Practical
+
+  - category: Theoretical Exam 1
+    link: /boxiv/ibo/2018/th_a.pdf
+    solutionLink: /boxiv/ibo/2018/th_sol.pdf
+    majorCategory: Theory
+
+  - category: Theoretical Exam 2
+    link: /boxiv/ibo/2018/th_b.pdf
+    solutionLink: /boxiv/ibo/2018/th_sol.pdf
+    majorCategory: Theory

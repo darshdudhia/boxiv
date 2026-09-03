@@ -1,0 +1,17 @@
+name: 17th IBO 2006
+location: Rio Cuarto, Argentina
+
+papers:
+  - category: Practical Exam
+    link: /boxiv/ibo/2006/pr.pdf
+    majorCategory: Practical
+
+  - category: Theoretical Exam A
+    link: /boxiv/ibo/2006/th_a.pdf
+    solutionLink: /boxiv/ibo/2006/th_a_sol.pdf
+    majorCategory: Theory
+
+  - category: Theoretical Exam B
+    link: /boxiv/ibo/2006/th_b.pdf
+    solutionLink: /boxiv/ibo/2006/th_b_sol.pdf
+    majorCategory: Theory

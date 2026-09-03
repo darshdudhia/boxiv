@@ -1,0 +1,33 @@
+name: 27th IBO 2016
+location: Hanoi, Vietnam
+
+papers:
+  - category: Practical Exam 1
+    name: Plant Anatomy and Physiology
+    link: /boxiv/ibo/2016/pr1.pdf
+    majorCategory: Practical
+
+  - category: Practical Exam 2
+    name: Animal Systematics and Anatomy
+    link: /boxiv/ibo/2016/pr2.pdf
+    majorCategory: Practical
+
+  - category: Practical Exam 3
+    name: Biochemistry and Microbiology
+    link: /boxiv/ibo/2016/pr3.pdf
+    majorCategory: Practical
+
+  - category: Practical Exam 4
+    name: Molecular Biology
+    link: /boxiv/ibo/2016/pr4.pdf
+    majorCategory: Practical
+
+  - category: Theoretical Exam A
+    link: /boxiv/ibo/2016/th_a.pdf
+    solutionLink: /boxiv/ibo/2016/th_a_sol.pdf
+    majorCategory: Theory
+
+  - category: Theoretical Exam B
+    link: /boxiv/ibo/2016/th_b.pdf
+    solutionLink: /boxiv/ibo/2016/th_b_sol.pdf
+    majorCategory: Theory

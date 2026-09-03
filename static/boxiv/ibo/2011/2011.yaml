@@ -1,0 +1,17 @@
+name: 22nd IBO 2011
+location: Taipei, Chinese Taipei
+
+papers:
+  - category: Practical Exam
+    link: /boxiv/ibo/2011/pr.pdf
+    majorCategory: Practical
+
+  - category: Theoretical Exam A
+    link: /boxiv/ibo/2011/th_a.pdf
+    solutionLink: /boxiv/ibo/2011/th_sol.pdf
+    majorCategory: Theory
+
+  - category: Theoretical Exam B
+    link: /boxiv/ibo/2011/th_b.pdf
+    solutionLink: /boxiv/ibo/2011/th_sol.pdf
+    majorCategory: Theory

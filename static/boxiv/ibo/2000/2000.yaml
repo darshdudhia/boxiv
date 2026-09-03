@@ -1,0 +1,11 @@
+name: 11th IBO 2000
+location: Antalya, Türkiye
+
+papers:
+  - category: Theoretical Exam A
+    link: /boxiv/ibo/2000/th_a.pdf
+    majorCategory: Theory
+
+  - category: Theoretical Exam B
+    link: /boxiv/ibo/2000/th_b.pdf
+    majorCategory: Theory

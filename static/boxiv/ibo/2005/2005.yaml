@@ -1,0 +1,13 @@
+name: 16th IBO 2005
+location: Beijing, China
+
+papers:
+  - category: Practical Exam
+    link: /boxiv/ibo/2005/pr.pdf
+    solutionLink: /boxiv/ibo/2005/pr_sol.pdf
+    majorCategory: Practical
+
+  - category: Theoretical Exam
+    link: /boxiv/ibo/2005/th.pdf
+    solutionLink: /boxiv/ibo/2005/th_sol.pdf
+    majorCategory: Theory

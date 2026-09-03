@@ -1,0 +1,25 @@
+name: IBO Challenge 2020 (in place of the 31st IBO)
+location: "Virtual (host: Nagasaki, Japan)"
+
+papers:
+  - category: Practical 1 Exam
+    name: Animal Physiology
+    link: /boxiv/ibo/2020/pr1.pdf
+    solutionLink: /boxiv/ibo/2020/pr1_sol.pdf
+    majorCategory: Practical
+
+  - category: Practical 2 Exam
+    name: Bioinformatics
+    link: /boxiv/ibo/2020/pr2.pdf
+    solutionLink: /boxiv/ibo/2020/pr2_sol.pdf
+    majorCategory: Practical
+
+  - category: Theory Exam 1
+    link: /boxiv/ibo/2020/th_a.pdf
+    solutionLink: /boxiv/ibo/2020/th_a_sol.pdf
+    majorCategory: Theory
+
+  - category: Theory Exam 2
+    link: /boxiv/ibo/2020/th_b.pdf
+    solutionLink: /boxiv/ibo/2020/th_b_sol.pdf
+    majorCategory: Theory
