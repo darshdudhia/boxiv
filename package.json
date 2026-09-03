@@ -5,8 +5,8 @@
 	"type": "module",
 	"packageManager": "pnpm@10.33.2",
 	"scripts": {
-		"dev": "bun run pregen && vite dev",
-		"build": "bun run pregen && vite build",
+		"dev": "vite dev",
+		"build": "vite build",
 		"preview": "bun run build && wrangler dev",
 		"deploy": "bun run build && wrangler deploy",
 		"prepare": "svelte-kit sync || echo ''",
