@@ -1,13 +1,13 @@
 <script lang="ts">
-	// "aoχiv" wordmark. The middle glyph is the real chi (χ) — the same
+	// "boχiv" wordmark. The middle glyph is the real chi (χ) — the same
 	// calligraphic mark used as the logo/watermark (static/chi.svg) — masked so
 	// it can carry the gradient. Letters + chi read as one peach → light → blue
 	// sweep, matching the logo's colour theme in both light and dark modes.
 	let { class: className = '' }: { class?: string } = $props();
 </script>
 
-<span class="brand {className}" role="img" aria-label="aoXiv">
-	<span class="seg seg-left">ao</span>
+<span class="brand {className}" role="img" aria-label="boXiv">
+	<span class="seg seg-left">bo</span>
 	<span class="chi" aria-hidden="true"></span>
 	<span class="seg seg-right">iv</span>
 </span>
