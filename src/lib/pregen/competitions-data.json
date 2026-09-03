@@ -1,5 +1,858 @@
 [
   {
+  "id": "ibo",
+  "name": "International Biology Olympiad",
+  "shortName": "IBO",
+  "website": "https://www.ibo-info.org/",
+  "desc": "The International Biology Olympiad (IBO) is a global competition for pre-university students under the age of 20, held annually since 1990. It features theoretical and practical exam components, with practicals often split across several biology sub-disciplines (biochemistry, molecular biology, plant and animal anatomy, ecology, bioinformatics, and more). This archive contains publicly shared problem and solution PDFs from past IBO editions, sourced from the official IBO archive.\n",
+  "summary": "International biology olympiad for pre-university students, featuring theoretical and practical exam rounds.",
+  "icon": "🧬",
+  "tag": "International",
+  "url": "https://www.ibo-info.org/en/info/papers.html",
+  "editions": [
+    {
+      "year": 2023,
+      "name": "34th IBO 2023",
+      "location": "Al Ain, United Arab Emirates",
+      "papers": [
+        {
+          "category": "Practical Exam 1",
+          "name": "Biochemistry",
+          "link": "/boxiv/ibo/2023/pr1.pdf",
+          "majorCategory": "Practical"
+        },
+        {
+          "category": "Practical Exam 2",
+          "name": "Bioinformatics",
+          "link": "/boxiv/ibo/2023/pr2.pdf",
+          "majorCategory": "Practical"
+        },
+        {
+          "category": "Practical Exam 3",
+          "name": "Ecology and Ethology",
+          "link": "/boxiv/ibo/2023/pr3.pdf",
+          "majorCategory": "Practical"
+        },
+        {
+          "category": "Practical Exam 4",
+          "name": "Plant Molecular Biology",
+          "link": "/boxiv/ibo/2023/pr4.pdf",
+          "majorCategory": "Practical"
+        },
+        {
+          "category": "Theory Exam 1",
+          "link": "/boxiv/ibo/2023/th_a.pdf",
+          "majorCategory": "Theory"
+        },
+        {
+          "category": "Theory Exam 2",
+          "link": "/boxiv/ibo/2023/th_b.pdf",
+          "majorCategory": "Theory"
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "name": "33rd IBO 2022",
+      "location": "Yerevan, Armenia",
+      "papers": [
+        {
+          "category": "Practical Exam 1",
+          "name": "Animal Systematics and Anatomy",
+          "link": "/boxiv/ibo/2022/pr1.pdf",
+          "majorCategory": "Practical",
+          "note": "Answer key is embedded within this PDF."
+        },
+        {
+          "category": "Practical Exam 2",
+          "name": "Plant Anatomy and Physiology",
+          "link": "/boxiv/ibo/2022/pr2.pdf",
+          "majorCategory": "Practical",
+          "note": "Answer key is embedded within this PDF."
+        },
+        {
+          "category": "Practical Exam 3",
+          "name": "Biochemistry",
+          "link": "/boxiv/ibo/2022/pr3.pdf",
+          "majorCategory": "Practical",
+          "note": "Answer key is embedded within this PDF."
+        },
+        {
+          "category": "Practical Exam 4",
+          "name": "Bioinformatics",
+          "link": "/boxiv/ibo/2022/pr4.pdf",
+          "majorCategory": "Practical",
+          "note": "Answer key is embedded within this PDF."
+        },
+        {
+          "category": "Theory Exam 1",
+          "link": "/boxiv/ibo/2022/th_a.pdf",
+          "majorCategory": "Theory",
+          "note": "Answer key is embedded within this PDF."
+        },
+        {
+          "category": "Theory Exam 2",
+          "link": "/boxiv/ibo/2022/th_b.pdf",
+          "majorCategory": "Theory",
+          "note": "Answer key is embedded within this PDF."
+        }
+      ]
+    },
+    {
+      "year": 2021,
+      "name": "IBO Challenge II 2021 (in place of the 32nd IBO)",
+      "location": "Virtual (host: Lisbon, Portugal)",
+      "papers": [
+        {
+          "category": "Theoretical Exam",
+          "link": "/boxiv/ibo/2021/th.pdf",
+          "solutionLink": "/boxiv/ibo/2021/th_sol.pdf",
+          "majorCategory": "Theory"
+        },
+        {
+          "category": "Theoretical-Practical Exam",
+          "link": "/boxiv/ibo/2021/thpr.pdf",
+          "solutionLink": "/boxiv/ibo/2021/thpr_sol.pdf",
+          "majorCategory": "Practical"
+        }
+      ]
+    },
+    {
+      "year": 2020,
+      "name": "IBO Challenge 2020 (in place of the 31st IBO)",
+      "location": "Virtual (host: Nagasaki, Japan)",
+      "papers": [
+        {
+          "category": "Practical 1 Exam",
+          "name": "Animal Physiology",
+          "link": "/boxiv/ibo/2020/pr1.pdf",
+          "solutionLink": "/boxiv/ibo/2020/pr1_sol.pdf",
+          "majorCategory": "Practical"
+        },
+        {
+          "category": "Practical 2 Exam",
+          "name": "Bioinformatics",
+          "link": "/boxiv/ibo/2020/pr2.pdf",
+          "solutionLink": "/boxiv/ibo/2020/pr2_sol.pdf",
+          "majorCategory": "Practical"
+        },
+        {
+          "category": "Theory Exam 1",
+          "link": "/boxiv/ibo/2020/th_a.pdf",
+          "solutionLink": "/boxiv/ibo/2020/th_a_sol.pdf",
+          "majorCategory": "Theory"
+        },
+        {
+          "category": "Theory Exam 2",
+          "link": "/boxiv/ibo/2020/th_b.pdf",
+          "solutionLink": "/boxiv/ibo/2020/th_b_sol.pdf",
+          "majorCategory": "Theory"
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "name": "30th IBO 2019",
+      "location": "Szeged, Hungary",
+      "papers": [
+        {
+          "category": "Practical Exams 1-4",
+          "link": "/boxiv/ibo/2019/pr.pdf",
+          "solutionLink": "/boxiv/ibo/2019/combined_sol.pdf",
+          "majorCategory": "Practical",
+          "note": "Single combined paper covering Practicals 1-4."
+        },
+        {
+          "category": "Theory Exam A",
+          "link": "/boxiv/ibo/2019/th_a.pdf",
+          "solutionLink": "/boxiv/ibo/2019/combined_sol.pdf",
+          "majorCategory": "Theory"
+        },
+        {
+          "category": "Theory Exam B",
+          "link": "/boxiv/ibo/2019/th_b.pdf",
+          "solutionLink": "/boxiv/ibo/2019/combined_sol.pdf",
+          "majorCategory": "Theory"
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "name": "29th IBO 2018",
+      "location": "Tehran, Iran",
+      "papers": [
+        {
+          "category": "Practical Exam 1",
+          "name": "Animal Systematics, Anatomy and Physiology",
+          "link": "/boxiv/ibo/2018/pr1.pdf",
+          "majorCategory": "Practical"
+        },
+        {
+          "category": "Practical Exam 2",
+          "name": "Biochemistry and Molecular Biology",
+          "link": "/boxiv/ibo/2018/pr2.pdf",
+          "majorCategory": "Practical"
+        },
+        {
+          "category": "Practical Exam 3",
+          "name": "Plant Systematics, Anatomy and Physiology",
+          "link": "/boxiv/ibo/2018/pr3.pdf",
+          "majorCategory": "Practical"
+        },
+        {
+          "category": "Practical Exam 4",
+          "name": "Evolution, Ecology and Behaviour",
+          "link": "/boxiv/ibo/2018/pr4.pdf",
+          "majorCategory": "Practical"
+        },
+        {
+          "category": "Theoretical Exam 1",
+          "link": "/boxiv/ibo/2018/th_a.pdf",
+          "solutionLink": "/boxiv/ibo/2018/th_sol.pdf",
+          "majorCategory": "Theory"
+        },
+        {
+          "category": "Theoretical Exam 2",
+          "link": "/boxiv/ibo/2018/th_b.pdf",
+          "solutionLink": "/boxiv/ibo/2018/th_sol.pdf",
+          "majorCategory": "Theory"
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "name": "28th IBO 2017",
+      "location": "University of Warwick, United Kingdom",
+      "papers": [
+        {
+          "category": "Practical Exam 1",
+          "name": "Botany",
+          "link": "/boxiv/ibo/2017/pr1.pdf",
+          "solutionLink": "/boxiv/ibo/2017/pr1_sol.pdf",
+          "majorCategory": "Practical"
+        },
+        {
+          "category": "Practical Exam 2",
+          "name": "Biochemistry",
+          "link": "/boxiv/ibo/2017/pr2.pdf",
+          "solutionLink": "/boxiv/ibo/2017/pr2_sol.pdf",
+          "majorCategory": "Practical"
+        },
+        {
+          "category": "Practical Exam 3",
+          "name": "Developmental Physiology",
+          "link": "/boxiv/ibo/2017/pr3.pdf",
+          "solutionLink": "/boxiv/ibo/2017/pr3_sol.pdf",
+          "majorCategory": "Practical"
+        },
+        {
+          "category": "Theoretical Exam A",
+          "link": "/boxiv/ibo/2017/th_a.pdf",
+          "solutionLink": "/boxiv/ibo/2017/th_a_sol.pdf",
+          "majorCategory": "Theory"
+        },
+        {
+          "category": "Theoretical Exam B",
+          "link": "/boxiv/ibo/2017/th_b.pdf",
+          "solutionLink": "/boxiv/ibo/2017/th_b_sol.pdf",
+          "majorCategory": "Theory"
+        }
+      ]
+    },
+    {
+      "year": 2016,
+      "name": "27th IBO 2016",
+      "location": "Hanoi, Vietnam",
+      "papers": [
+        {
+          "category": "Practical Exam 1",
+          "name": "Plant Anatomy and Physiology",
+          "link": "/boxiv/ibo/2016/pr1.pdf",
+          "majorCategory": "Practical"
+        },
+        {
+          "category": "Practical Exam 2",
+          "name": "Animal Systematics and Anatomy",
+          "link": "/boxiv/ibo/2016/pr2.pdf",
+          "majorCategory": "Practical"
+        },
+        {
+          "category": "Practical Exam 3",
+          "name": "Biochemistry and Microbiology",
+          "link": "/boxiv/ibo/2016/pr3.pdf",
+          "majorCategory": "Practical"
+        },
+        {
+          "category": "Practical Exam 4",
+          "name": "Molecular Biology",
+          "link": "/boxiv/ibo/2016/pr4.pdf",
+          "majorCategory": "Practical"
+        },
+        {
+          "category": "Theoretical Exam A",
+          "link": "/boxiv/ibo/2016/th_a.pdf",
+          "solutionLink": "/boxiv/ibo/2016/th_a_sol.pdf",
+          "majorCategory": "Theory"
+        },
+        {
+          "category": "Theoretical Exam B",
+          "link": "/boxiv/ibo/2016/th_b.pdf",
+          "solutionLink": "/boxiv/ibo/2016/th_b_sol.pdf",
+          "majorCategory": "Theory"
+        }
+      ]
+    },
+    {
+      "year": 2015,
+      "name": "26th IBO 2015",
+      "location": "Aarhus, Denmark",
+      "papers": [
+        {
+          "category": "Practical Exam 1",
+          "name": "Plant Anatomy, Biosystematics & Evolution",
+          "link": "/boxiv/ibo/2015/pr1.pdf",
+          "majorCategory": "Practical"
+        },
+        {
+          "category": "Practical Exam 2",
+          "name": "Molecular Biology",
+          "link": "/boxiv/ibo/2015/pr2.pdf",
+          "majorCategory": "Practical"
+        },
+        {
+          "category": "Practical Exam 3",
+          "name": "Animal Biology",
+          "link": "/boxiv/ibo/2015/pr3.pdf",
+          "majorCategory": "Practical"
+        },
+        {
+          "category": "Practical Exam 4",
+          "name": "Biochemistry",
+          "link": "/boxiv/ibo/2015/pr4.pdf",
+          "majorCategory": "Practical"
+        },
+        {
+          "category": "Theoretical Exam A",
+          "link": "/boxiv/ibo/2015/th_a.pdf",
+          "solutionLink": "/boxiv/ibo/2015/th_a_sol.pdf",
+          "additionalFiles": [
+            "/boxiv/ibo/2015/th_sol_key.pdf"
+          ],
+          "majorCategory": "Theory"
+        },
+        {
+          "category": "Theoretical Exam B",
+          "link": "/boxiv/ibo/2015/th_b.pdf",
+          "solutionLink": "/boxiv/ibo/2015/th_b_sol.pdf",
+          "majorCategory": "Theory"
+        }
+      ]
+    },
+    {
+      "year": 2014,
+      "name": "25th IBO 2014",
+      "location": "Bali, Indonesia",
+      "papers": [
+        {
+          "category": "Practical Exams 1-4",
+          "link": "/boxiv/ibo/2014/pr.pdf",
+          "solutionLink": "/boxiv/ibo/2014/pr_sol.pdf",
+          "majorCategory": "Practical",
+          "note": "Single combined paper covering Practicals 1-4."
+        },
+        {
+          "category": "Theoretical Exam A",
+          "link": "/boxiv/ibo/2014/th_a.pdf",
+          "solutionLink": "/boxiv/ibo/2014/th_sol.pdf",
+          "majorCategory": "Theory"
+        },
+        {
+          "category": "Theoretical Exam B",
+          "link": "/boxiv/ibo/2014/th_b.pdf",
+          "solutionLink": "/boxiv/ibo/2014/th_sol.pdf",
+          "majorCategory": "Theory"
+        }
+      ]
+    },
+    {
+      "year": 2013,
+      "name": "24th IBO 2013",
+      "location": "Bern, Switzerland",
+      "papers": [
+        {
+          "category": "Practical Exams 1-4",
+          "link": "/boxiv/ibo/2013/pr.pdf",
+          "majorCategory": "Practical",
+          "note": "Single combined paper covering Practicals 1-4."
+        },
+        {
+          "category": "Theoretical Exam 1",
+          "link": "/boxiv/ibo/2013/th_a.pdf",
+          "majorCategory": "Theory"
+        },
+        {
+          "category": "Theoretical Exam 2",
+          "link": "/boxiv/ibo/2013/th_b.pdf",
+          "majorCategory": "Theory"
+        }
+      ]
+    },
+    {
+      "year": 2012,
+      "name": "23rd IBO 2012",
+      "location": "Singapore, Singapore",
+      "papers": [
+        {
+          "category": "Practical Exam",
+          "link": "/boxiv/ibo/2012/pr.pdf",
+          "solutionLink": "/boxiv/ibo/2012/pr_sol.pdf",
+          "majorCategory": "Practical"
+        },
+        {
+          "category": "Theoretical Exam A",
+          "link": "/boxiv/ibo/2012/th_a.pdf",
+          "solutionLink": "/boxiv/ibo/2012/th_sol.pdf",
+          "majorCategory": "Theory"
+        },
+        {
+          "category": "Theoretical Exam B",
+          "link": "/boxiv/ibo/2012/th_b.pdf",
+          "solutionLink": "/boxiv/ibo/2012/th_sol.pdf",
+          "majorCategory": "Theory"
+        }
+      ]
+    },
+    {
+      "year": 2011,
+      "name": "22nd IBO 2011",
+      "location": "Taipei, Chinese Taipei",
+      "papers": [
+        {
+          "category": "Practical Exam",
+          "link": "/boxiv/ibo/2011/pr.pdf",
+          "majorCategory": "Practical"
+        },
+        {
+          "category": "Theoretical Exam A",
+          "link": "/boxiv/ibo/2011/th_a.pdf",
+          "solutionLink": "/boxiv/ibo/2011/th_sol.pdf",
+          "majorCategory": "Theory"
+        },
+        {
+          "category": "Theoretical Exam B",
+          "link": "/boxiv/ibo/2011/th_b.pdf",
+          "solutionLink": "/boxiv/ibo/2011/th_sol.pdf",
+          "majorCategory": "Theory"
+        }
+      ]
+    },
+    {
+      "year": 2010,
+      "name": "21st IBO 2010",
+      "location": "Changwon, South Korea",
+      "papers": [
+        {
+          "category": "Practical Exam",
+          "solutionLink": "/boxiv/ibo/2010/pr_sol.pdf",
+          "majorCategory": "Practical",
+          "note": "Question paper not available in the archive; only solutions were published/kept."
+        },
+        {
+          "category": "Theoretical Exam A",
+          "link": "/boxiv/ibo/2010/th_a.pdf",
+          "solutionLink": "/boxiv/ibo/2010/th_a_sol.pdf",
+          "majorCategory": "Theory"
+        },
+        {
+          "category": "Theoretical Exam B",
+          "link": "/boxiv/ibo/2010/th_b.pdf",
+          "solutionLink": "/boxiv/ibo/2010/th_b_sol.pdf",
+          "majorCategory": "Theory"
+        }
+      ]
+    },
+    {
+      "year": 2009,
+      "name": "20th IBO 2009",
+      "location": "Tsukuba, Japan",
+      "papers": [
+        {
+          "category": "Practical Exam",
+          "link": "/boxiv/ibo/2009/pr.pdf",
+          "majorCategory": "Practical"
+        },
+        {
+          "category": "Theoretical Exam A",
+          "link": "/boxiv/ibo/2009/th_a.pdf",
+          "solutionLink": "/boxiv/ibo/2009/th_sol.pdf",
+          "majorCategory": "Theory"
+        },
+        {
+          "category": "Theoretical Exam B",
+          "link": "/boxiv/ibo/2009/th_b.pdf",
+          "solutionLink": "/boxiv/ibo/2009/th_sol.pdf",
+          "majorCategory": "Theory"
+        }
+      ]
+    },
+    {
+      "year": 2008,
+      "name": "19th IBO 2008",
+      "location": "Mumbai, India",
+      "papers": [
+        {
+          "category": "Practical Exam",
+          "link": "/boxiv/ibo/2008/pr.pdf",
+          "majorCategory": "Practical"
+        },
+        {
+          "category": "Theoretical Exam A",
+          "link": "/boxiv/ibo/2008/th_a.pdf",
+          "solutionLink": "/boxiv/ibo/2008/th_a_sol.pdf",
+          "majorCategory": "Theory"
+        },
+        {
+          "category": "Theoretical Exam B",
+          "link": "/boxiv/ibo/2008/th_b.pdf",
+          "solutionLink": "/boxiv/ibo/2008/th_b_sol.pdf",
+          "majorCategory": "Theory"
+        }
+      ]
+    },
+    {
+      "year": 2007,
+      "name": "18th IBO 2007",
+      "location": "Saskatoon, Canada",
+      "papers": [
+        {
+          "category": "Theoretical & Practical Exams",
+          "link": "/boxiv/ibo/2007/combined.pdf",
+          "solutionLink": "/boxiv/ibo/2007/th_sol.pdf",
+          "majorCategory": "Overall",
+          "note": "Single combined question paper; published solutions cover the theory component."
+        }
+      ]
+    },
+    {
+      "year": 2006,
+      "name": "17th IBO 2006",
+      "location": "Rio Cuarto, Argentina",
+      "papers": [
+        {
+          "category": "Practical Exam",
+          "link": "/boxiv/ibo/2006/pr.pdf",
+          "majorCategory": "Practical"
+        },
+        {
+          "category": "Theoretical Exam A",
+          "link": "/boxiv/ibo/2006/th_a.pdf",
+          "solutionLink": "/boxiv/ibo/2006/th_a_sol.pdf",
+          "majorCategory": "Theory"
+        },
+        {
+          "category": "Theoretical Exam B",
+          "link": "/boxiv/ibo/2006/th_b.pdf",
+          "solutionLink": "/boxiv/ibo/2006/th_b_sol.pdf",
+          "majorCategory": "Theory"
+        }
+      ]
+    },
+    {
+      "year": 2005,
+      "name": "16th IBO 2005",
+      "location": "Beijing, China",
+      "papers": [
+        {
+          "category": "Practical Exam",
+          "link": "/boxiv/ibo/2005/pr.pdf",
+          "solutionLink": "/boxiv/ibo/2005/pr_sol.pdf",
+          "majorCategory": "Practical"
+        },
+        {
+          "category": "Theoretical Exam",
+          "link": "/boxiv/ibo/2005/th.pdf",
+          "solutionLink": "/boxiv/ibo/2005/th_sol.pdf",
+          "majorCategory": "Theory"
+        }
+      ]
+    },
+    {
+      "year": 2004,
+      "name": "15th IBO 2004",
+      "location": "Brisbane, Australia",
+      "papers": [
+        {
+          "category": "Practical Exam",
+          "link": "/boxiv/ibo/2004/pr.pdf",
+          "majorCategory": "Practical"
+        },
+        {
+          "category": "Theoretical Exam A",
+          "link": "/boxiv/ibo/2004/th_a.pdf",
+          "solutionLink": "/boxiv/ibo/2004/th_a_sol.pdf",
+          "majorCategory": "Theory"
+        },
+        {
+          "category": "Theoretical Exam B",
+          "link": "/boxiv/ibo/2004/th_b.pdf",
+          "solutionLink": "/boxiv/ibo/2004/th_b_sol.pdf",
+          "majorCategory": "Theory"
+        }
+      ]
+    },
+    {
+      "year": 2003,
+      "name": "14th IBO 2003",
+      "location": "Minsk, Belarus",
+      "papers": [
+        {
+          "category": "Practical Exam",
+          "link": "/boxiv/ibo/2003/pr.pdf",
+          "solutionLink": "/boxiv/ibo/2003/pr_sol.pdf",
+          "majorCategory": "Practical"
+        },
+        {
+          "category": "Theoretical Exam",
+          "link": "/boxiv/ibo/2003/th.pdf",
+          "additionalFiles": [
+            "/boxiv/ibo/2003/th_a_sol.pdf",
+            "/boxiv/ibo/2003/th_b_sol.pdf"
+          ],
+          "majorCategory": "Theory",
+          "note": "Question paper combined for versions A/B; solutions published separately per version."
+        }
+      ]
+    },
+    {
+      "year": 2002,
+      "name": "13th IBO 2002",
+      "location": "Jurmala-Riga, Latvia",
+      "papers": [
+        {
+          "category": "Practical Exam",
+          "link": "/boxiv/ibo/2002/pr.pdf",
+          "majorCategory": "Practical"
+        },
+        {
+          "category": "Theoretical Exam A",
+          "link": "/boxiv/ibo/2002/th_a.pdf",
+          "majorCategory": "Theory"
+        },
+        {
+          "category": "Theoretical Exam B",
+          "link": "/boxiv/ibo/2002/th_b.pdf",
+          "majorCategory": "Theory"
+        }
+      ]
+    },
+    {
+      "year": 2001,
+      "name": "12th IBO 2001",
+      "location": "Brussels, Belgium",
+      "papers": [
+        {
+          "category": "Practical Exam",
+          "link": "/boxiv/ibo/2001/pr.pdf",
+          "majorCategory": "Practical"
+        },
+        {
+          "category": "Theoretical Exam A",
+          "link": "/boxiv/ibo/2001/th_a.pdf",
+          "majorCategory": "Theory"
+        },
+        {
+          "category": "Theoretical Exam B",
+          "link": "/boxiv/ibo/2001/th_b.pdf",
+          "majorCategory": "Theory"
+        },
+        {
+          "category": "Solutions",
+          "link": "/boxiv/ibo/2001/sol.pdf",
+          "majorCategory": "Overall",
+          "note": "Combined solutions document; scope (theory/practical) as published by IBO."
+        }
+      ]
+    },
+    {
+      "year": 2000,
+      "name": "11th IBO 2000",
+      "location": "Antalya, Türkiye",
+      "papers": [
+        {
+          "category": "Theoretical Exam A",
+          "link": "/boxiv/ibo/2000/th_a.pdf",
+          "majorCategory": "Theory"
+        },
+        {
+          "category": "Theoretical Exam B",
+          "link": "/boxiv/ibo/2000/th_b.pdf",
+          "majorCategory": "Theory"
+        }
+      ]
+    },
+    {
+      "year": 1999,
+      "name": "10th IBO 1999",
+      "location": "Uppsala, Sweden",
+      "papers": [
+        {
+          "category": "Practical Exam",
+          "link": "/boxiv/ibo/1999/pr.pdf",
+          "majorCategory": "Practical"
+        },
+        {
+          "category": "Theoretical Exam",
+          "link": "/boxiv/ibo/1999/th.pdf",
+          "majorCategory": "Theory"
+        }
+      ]
+    },
+    {
+      "year": 1998,
+      "name": "9th IBO 1998",
+      "location": "Kiel, Germany",
+      "papers": [
+        {
+          "category": "Theoretical & Practical Exams",
+          "link": "/boxiv/ibo/1998/combined.pdf",
+          "majorCategory": "Overall",
+          "note": "Single combined paper covering both theory and practical components."
+        }
+      ]
+    },
+    {
+      "year": 1997,
+      "name": "8th IBO 1997",
+      "location": "Ashgabat, Turkmenistan",
+      "papers": [
+        {
+          "category": "Practical Exam",
+          "link": "/boxiv/ibo/1997/pr.pdf",
+          "majorCategory": "Practical"
+        },
+        {
+          "category": "Theoretical Exam A",
+          "link": "/boxiv/ibo/1997/th_a.pdf",
+          "majorCategory": "Theory"
+        },
+        {
+          "category": "Solutions",
+          "link": "/boxiv/ibo/1997/sol.pdf",
+          "majorCategory": "Overall",
+          "note": "Combined solutions document; scope (theory/practical) as published by IBO."
+        }
+      ]
+    },
+    {
+      "year": 1996,
+      "name": "7th IBO 1996",
+      "location": "Artek, Ukraine",
+      "papers": [
+        {
+          "category": "Practical Exam",
+          "link": "/boxiv/ibo/1996/pr.pdf",
+          "majorCategory": "Practical"
+        },
+        {
+          "category": "Theoretical Exam",
+          "link": "/boxiv/ibo/1996/th.pdf",
+          "majorCategory": "Theory"
+        }
+      ]
+    },
+    {
+      "year": 1995,
+      "name": "6th IBO 1995",
+      "location": "Bangkok, Thailand",
+      "papers": [
+        {
+          "category": "Practical Exam",
+          "link": "/boxiv/ibo/1995/pr.pdf",
+          "majorCategory": "Practical"
+        },
+        {
+          "category": "Theoretical Exam",
+          "link": "/boxiv/ibo/1995/th.pdf",
+          "solutionLink": "/boxiv/ibo/1995/th_sol.pdf",
+          "majorCategory": "Theory"
+        }
+      ]
+    },
+    {
+      "year": 1994,
+      "name": "5th IBO 1994",
+      "location": "Varna, Bulgaria",
+      "papers": [
+        {
+          "category": "Practical Exam",
+          "link": "/boxiv/ibo/1994/pr.pdf",
+          "majorCategory": "Practical"
+        },
+        {
+          "category": "Theoretical Exam",
+          "link": "/boxiv/ibo/1994/th.pdf",
+          "majorCategory": "Theory"
+        }
+      ]
+    },
+    {
+      "year": 1993,
+      "name": "4th IBO 1993",
+      "location": "Utrecht, Netherlands",
+      "papers": [
+        {
+          "category": "Practical Exam",
+          "link": "/boxiv/ibo/1993/pr.pdf",
+          "majorCategory": "Practical"
+        },
+        {
+          "category": "Theoretical Exam",
+          "link": "/boxiv/ibo/1993/th.pdf",
+          "majorCategory": "Theory"
+        }
+      ]
+    },
+    {
+      "year": 1992,
+      "name": "3rd IBO 1992",
+      "location": "Poprad, Slovakia",
+      "papers": [
+        {
+          "category": "Practical Exam",
+          "link": "/boxiv/ibo/1992/pr.pdf",
+          "majorCategory": "Practical"
+        }
+      ]
+    },
+    {
+      "year": 1991,
+      "name": "2nd IBO 1991",
+      "location": "Machatskala, Russia",
+      "papers": [
+        {
+          "category": "Theoretical Exam",
+          "link": "/boxiv/ibo/1991/th.pdf",
+          "majorCategory": "Theory"
+        }
+      ]
+    },
+    {
+      "year": 1990,
+      "name": "1st IBO 1990",
+      "location": "Olomouc, Czech Republic",
+      "papers": [
+        {
+          "category": "Theoretical Exam",
+          "link": "/boxiv/ibo/1990/th.pdf",
+          "solutionLink": "/boxiv/ibo/1990/th_sol.pdf",
+          "majorCategory": "Theory"
+        }
+      ]
+    }
+  ]
+},
+  
+  {
     "id": "arao",
     "name": "All Russian Astronomy Olympiad",
     "shortName": "ARAO",
