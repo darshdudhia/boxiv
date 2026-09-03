@@ -1,8 +1,8 @@
+```svelte
 <script lang="ts">
-	// "boχiv" wordmark. The middle glyph is the real chi (χ) — the same
-	// calligraphic mark used as the logo/watermark (static/chi.svg) — masked so
-	// it can carry the gradient. Letters + chi read as one peach → light → blue
-	// sweep, matching the logo's colour theme in both light and dark modes.
+	// "boχiv" wordmark. The middle glyph is the real chi (χ) —
+	// the same calligraphic mark used as the logo/watermark (static/chi.svg).
+	// The wordmark uses the exact green gradient from the logo.
 	let { class: className = '' }: { class?: string } = $props();
 </script>
 
@@ -23,8 +23,8 @@
 
 	.seg,
 	.chi {
-		/* Override the global `span { font-size: 1rem }` base rule so the wordmark
-		   scales with the font-size set on .brand. */
+		/* Override the global `span { font-size: 1rem }` base rule so the
+		   wordmark scales with the font-size set on .brand. */
 		font-size: inherit;
 		line-height: 1;
 	}
@@ -36,36 +36,48 @@
 		color: transparent;
 	}
 
-	/* Cool, cosmic sweep — violet → blue → cyan/teal with a bright core, for a
-	   modern scientific-astronomy feel that keys off the mauve/blue theme. */
+	/* Exact green gradient used by the updated logo SVG. */
 	.seg-left {
 		background-image: linear-gradient(
 			100deg,
-			var(--primary) 0%,
-			color-mix(in oklab, var(--foreground) 55%, var(--chart-3)) 100%
+			#005a2d 0%,
+			#008c46 40%,
+			#32b45a 70%,
+			#96e1aa 88%,
+			#ebfff0 100%
 		);
 	}
 
+	/* Continue the same exact logo gradient across "iv". */
 	.seg-right {
 		background-image: linear-gradient(
 			100deg,
-			color-mix(in oklab, var(--foreground) 55%, var(--chart-3)) 0%,
-			var(--chart-5) 100%
+			#005a2d 0%,
+			#008c46 40%,
+			#32b45a 70%,
+			#96e1aa 88%,
+			#ebfff0 100%
 		);
 	}
 
+	/* The χ uses the exact same gradient as the logo. */
 	.chi {
 		display: inline-block;
 		width: 0.88em;
 		height: 1.02em;
 		margin: 0 -0.05em;
+
 		background: linear-gradient(
 			120deg,
-			color-mix(in oklab, var(--foreground) 60%, var(--chart-3)),
-			var(--foreground) 50%,
-			color-mix(in oklab, var(--foreground) 60%, var(--chart-5))
+			#005a2d 0%,
+			#008c46 40%,
+			#32b45a 70%,
+			#96e1aa 88%,
+			#ebfff0 100%
 		);
+
 		-webkit-mask: url('/chi.svg') center / contain no-repeat;
 		mask: url('/chi.svg') center / contain no-repeat;
 	}
 </style>
+```
