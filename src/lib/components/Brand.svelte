@@ -1,4 +1,3 @@
-```svelte
 <script lang="ts">
 	// "boχiv" wordmark. The middle glyph is the real chi (χ) —
 	// the same calligraphic mark used as the logo/watermark (static/chi.svg).
@@ -80,4 +79,3 @@
 		mask: url('/chi.svg') center / contain no-repeat;
 	}
 </style>
-```
