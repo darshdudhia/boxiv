@@ -885,6 +885,293 @@
     }
   ]
 },
+  {
+    "id": "inbo",
+    "name": "Indian National Biology Olympiad",
+    "shortName": "INBO",
+    "website": "https://olympiads.hbcse.tifr.res.in/",
+    "desc": "The Indian National Biology Olympiad (INBO) is a national-level theory examination administered by HBCSE-TIFR as part of India's multi-stage biology olympiad selection process, which eventually leads to the International Biology Olympiad (IBO). This archive contains publicly shared question papers, solutions, and answer booklets from past INBO editions.\n",
+    "summary": "National-level biology olympiad exam in India's science olympiad selection pipeline.",
+    "icon": "🇮🇳",
+    "tag": "National",
+    "url": "https://olympiads.hbcse.tifr.res.in/how-to-prepare/past-papers/",
+    "editions": [
+      {
+        "year": 2026,
+        "name": "INBO 2026",
+        "papers": [
+          {
+            "category": "Question Paper (English)",
+            "link": "/boxiv/inbo/2026/th.pdf",
+            "majorCategory": "Theory",
+            "solutionLink": "/boxiv/inbo/2026/th_sol.pdf",
+            "additionalFiles": [
+              "/boxiv/inbo/2026/th_hi.pdf"
+            ]
+          }
+        ],
+        "problems": []
+      },
+      {
+        "year": 2025,
+        "name": "INBO 2025",
+        "papers": [
+          {
+            "category": "Question Paper (English)",
+            "link": "/boxiv/inbo/2025/th.pdf",
+            "majorCategory": "Theory",
+            "solutionLink": "/boxiv/inbo/2025/th_sol.pdf",
+            "answerSheet": "/boxiv/inbo/2025/th_ans.pdf",
+            "additionalFiles": [
+              "/boxiv/inbo/2025/th_hi.pdf"
+            ]
+          }
+        ],
+        "problems": []
+      },
+      {
+        "year": 2024,
+        "name": "INBO 2024",
+        "papers": [
+          {
+            "category": "Question Paper (English)",
+            "link": "/boxiv/inbo/2024/th.pdf",
+            "majorCategory": "Theory",
+            "solutionLink": "/boxiv/inbo/2024/th_sol.pdf",
+            "answerSheet": "/boxiv/inbo/2024/th_ans.pdf",
+            "additionalFiles": [
+              "/boxiv/inbo/2024/th_hi.pdf"
+            ]
+          }
+        ],
+        "problems": []
+      },
+      {
+        "year": 2023,
+        "name": "INBO 2023",
+        "papers": [
+          {
+            "category": "Question Paper (English)",
+            "link": "/boxiv/inbo/2023/th.pdf",
+            "majorCategory": "Theory",
+            "solutionLink": "/boxiv/inbo/2023/th_sol.pdf",
+            "additionalFiles": [
+              "/boxiv/inbo/2023/th_hi.pdf"
+            ]
+          }
+        ],
+        "problems": []
+      },
+      {
+        "year": 2022,
+        "name": "INBO 2022",
+        "papers": [
+          {
+            "category": "Question Paper (English)",
+            "link": "/boxiv/inbo/2022/th.pdf",
+            "majorCategory": "Theory",
+            "solutionLink": "/boxiv/inbo/2022/th_sol.pdf",
+            "additionalFiles": [
+              "/boxiv/inbo/2022/th_hi.pdf"
+            ],
+            "note": "This year's national-level biology exam files are labeled 'IOQB (Indian Olympiad Qualifier in Biology) Part II' rather than 'INBO'; included here as this year's INBO-equivalent national exam."
+          }
+        ],
+        "problems": []
+      },
+      {
+        "year": 2021,
+        "name": "INBO 2021",
+        "papers": [
+          {
+            "category": "Question Paper (English)",
+            "link": "/boxiv/inbo/2021/th.pdf",
+            "majorCategory": "Theory",
+            "solutionLink": "/boxiv/inbo/2021/th_sol.pdf",
+            "additionalFiles": [
+              "/boxiv/inbo/2021/th_hi.pdf"
+            ],
+            "note": "This year's national-level biology exam files are labeled 'IOQB (Indian Olympiad Qualifier in Biology) Part II' rather than 'INBO'; included here as this year's INBO-equivalent national exam."
+          }
+        ],
+        "problems": []
+      },
+      {
+        "year": 2020,
+        "name": "INBO 2020",
+        "papers": [
+          {
+            "category": "Question Paper (English)",
+            "link": "/boxiv/inbo/2020/th.pdf",
+            "majorCategory": "Theory",
+            "solutionLink": "/boxiv/inbo/2020/th_sol.pdf",
+            "additionalFiles": [
+              "/boxiv/inbo/2020/th_hi.pdf"
+            ]
+          }
+        ],
+        "problems": []
+      },
+      {
+        "year": 2019,
+        "name": "INBO 2019",
+        "papers": [
+          {
+            "category": "Question Paper (English)",
+            "link": "/boxiv/inbo/2019/th.pdf",
+            "majorCategory": "Theory",
+            "solutionLink": "/boxiv/inbo/2019/th_sol.pdf",
+            "additionalFiles": [
+              "/boxiv/inbo/2019/th_hi.pdf"
+            ]
+          }
+        ],
+        "problems": []
+      },
+      {
+        "year": 2018,
+        "name": "INBO 2018",
+        "papers": [
+          {
+            "category": "Question Paper",
+            "link": "/boxiv/inbo/2018/th.pdf",
+            "majorCategory": "Theory",
+            "solutionLink": "/boxiv/inbo/2018/th_sol.pdf"
+          }
+        ],
+        "problems": []
+      },
+      {
+        "year": 2017,
+        "name": "INBO 2017",
+        "papers": [
+          {
+            "category": "Question Paper",
+            "link": "/boxiv/inbo/2017/th.pdf",
+            "majorCategory": "Theory",
+            "solutionLink": "/boxiv/inbo/2017/th_sol.pdf"
+          }
+        ],
+        "problems": []
+      },
+      {
+        "year": 2016,
+        "name": "INBO 2016",
+        "papers": [
+          {
+            "category": "Question Paper",
+            "link": "/boxiv/inbo/2016/th.pdf",
+            "majorCategory": "Theory",
+            "solutionLink": "/boxiv/inbo/2016/th_sol.pdf"
+          }
+        ],
+        "problems": []
+      },
+      {
+        "year": 2015,
+        "name": "INBO 2015",
+        "papers": [
+          {
+            "category": "Question Paper",
+            "link": "/boxiv/inbo/2015/th.pdf",
+            "majorCategory": "Theory",
+            "solutionLink": "/boxiv/inbo/2015/th_sol.pdf"
+          }
+        ],
+        "problems": []
+      },
+      {
+        "year": 2014,
+        "name": "INBO 2014",
+        "papers": [
+          {
+            "category": "Question Paper",
+            "link": "/boxiv/inbo/2014/th.pdf",
+            "majorCategory": "Theory",
+            "solutionLink": "/boxiv/inbo/2014/th_sol.pdf"
+          }
+        ],
+        "problems": []
+      },
+      {
+        "year": 2013,
+        "name": "INBO 2013",
+        "papers": [
+          {
+            "category": "Question Paper",
+            "link": "/boxiv/inbo/2013/th.pdf",
+            "majorCategory": "Theory",
+            "solutionLink": "/boxiv/inbo/2013/th_sol.pdf"
+          }
+        ],
+        "problems": []
+      },
+      {
+        "year": 2012,
+        "name": "INBO 2012",
+        "papers": [
+          {
+            "category": "Question Paper",
+            "link": "/boxiv/inbo/2012/th.pdf",
+            "majorCategory": "Theory",
+            "solutionLink": "/boxiv/inbo/2012/th_sol.pdf"
+          }
+        ],
+        "problems": []
+      },
+      {
+        "year": 2011,
+        "name": "INBO 2011",
+        "papers": [
+          {
+            "category": "Question Paper",
+            "link": "/boxiv/inbo/2011/th.pdf",
+            "majorCategory": "Theory",
+            "solutionLink": "/boxiv/inbo/2011/th_sol.pdf"
+          }
+        ],
+        "problems": []
+      },
+      {
+        "year": 2010,
+        "name": "INBO 2010",
+        "papers": [
+          {
+            "category": "Question Paper",
+            "link": "/boxiv/inbo/2010/th.pdf",
+            "majorCategory": "Theory",
+            "solutionLink": "/boxiv/inbo/2010/th_sol.pdf"
+          }
+        ],
+        "problems": []
+      },
+      {
+        "year": 2009,
+        "name": "INBO 2009",
+        "papers": [
+          {
+            "category": "Question Paper",
+            "link": "/boxiv/inbo/2009/th.pdf",
+            "majorCategory": "Theory",
+            "solutionLink": "/boxiv/inbo/2009/th_sol.pdf"
+          }
+        ],
+        "problems": []
+      },
+      {
+        "year": 2005,
+        "name": "INBO 2005",
+        "papers": [
+          {
+            "category": "Question Paper",
+            "link": "/boxiv/inbo/2005/th.pdf",
+            "majorCategory": "Theory"
+          }
+        ],
+        "problems": []
+      }
+    ]
+  },
     {
         "id": "arao",
         "name": "All Russian Astronomy Olympiad",
