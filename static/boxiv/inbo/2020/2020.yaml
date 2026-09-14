@@ -1,0 +1,9 @@
+name: INBO 2020
+papers:
+- category: Question Paper (English)
+  link: /boxiv/inbo/2020/th.pdf
+  majorCategory: Theory
+  solutionLink: /boxiv/inbo/2020/th_sol.pdf
+  additionalFiles:
+  - /boxiv/inbo/2020/th_hi.pdf
+problems: []

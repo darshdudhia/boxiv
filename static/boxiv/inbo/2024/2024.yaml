@@ -1,0 +1,10 @@
+name: INBO 2024
+papers:
+- category: Question Paper (English)
+  link: /boxiv/inbo/2024/th.pdf
+  majorCategory: Theory
+  solutionLink: /boxiv/inbo/2024/th_sol.pdf
+  answerSheet: /boxiv/inbo/2024/th_ans.pdf
+  additionalFiles:
+  - /boxiv/inbo/2024/th_hi.pdf
+problems: []

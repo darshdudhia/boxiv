@@ -1,0 +1,11 @@
+name: INBO 2022
+papers:
+- category: Question Paper (English)
+  link: /boxiv/inbo/2022/th.pdf
+  majorCategory: Theory
+  solutionLink: /boxiv/inbo/2022/th_sol.pdf
+  additionalFiles:
+  - /boxiv/inbo/2022/th_hi.pdf
+  note: This year's national-level biology exam files are labeled 'IOQB (Indian Olympiad Qualifier in
+    Biology) Part II' rather than 'INBO'; included here as this year's INBO-equivalent national exam.
+problems: []

@@ -1,0 +1,9 @@
+name: INBO 2026
+papers:
+- category: Question Paper (English)
+  link: /boxiv/inbo/2026/th.pdf
+  majorCategory: Theory
+  solutionLink: /boxiv/inbo/2026/th_sol.pdf
+  additionalFiles:
+  - /boxiv/inbo/2026/th_hi.pdf
+problems: []
