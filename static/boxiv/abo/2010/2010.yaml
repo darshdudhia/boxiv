@@ -1,0 +1,10 @@
+name: ABO 2010
+papers:
+- category: Question Paper
+  link: /boxiv/abo/2010/th.pdf
+  majorCategory: Theory
+  solutionLink: /boxiv/abo/2010/th_sol.pdf
+  answerSheet: /boxiv/abo/2010/th_ans.pdf
+  note: The question paper contains Sections A, B and C; th_ans.pdf is the blank answer booklet used for
+    Section C written responses.
+problems: []

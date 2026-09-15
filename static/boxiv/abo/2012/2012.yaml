@@ -1,0 +1,11 @@
+name: ABO 2012
+papers:
+- category: Theory Exam (Sections A & B)
+  link: /boxiv/abo/2012/th_a.pdf
+  majorCategory: Theory
+  solutionLink: /boxiv/abo/2012/combined_sol.pdf
+- category: Theory Exam (Section C)
+  link: /boxiv/abo/2012/th_b.pdf
+  majorCategory: Theory
+  solutionLink: /boxiv/abo/2012/combined_sol.pdf
+problems: []
