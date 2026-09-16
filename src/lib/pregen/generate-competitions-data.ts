@@ -340,7 +340,6 @@ function loadCompetition(compDir: string): Competition {
 	};
 }
 
-<<<<<<< HEAD
 /**
  * Reads every competition folder under static/boxiv, builds
  * competitions-data.json and site-config.json from the YAML source files,
@@ -350,9 +349,6 @@ function loadCompetition(compDir: string): Competition {
  */
 export function generateCompetitionsData(): void {
 	const DATA_ROOT = path.resolve('./static/boxiv');
-=======
-const DATA_ROOT = path.resolve('./static/boxiv');
->>>>>>> c1baaa24b1a741375248f9f15fc9e305780385e9
 
 	const competitions: Competition[] = fs
 		.readdirSync(DATA_ROOT, { withFileTypes: true })
