@@ -340,19 +340,36 @@ function loadCompetition(compDir: string): Competition {
 	};
 }
 
-const DATA_ROOT = path.resolve('./static/aoxiv');
+/**
+ * Reads every competition folder under static/boxiv, builds
+ * competitions-data.json and site-config.json from the YAML source files,
+ * and writes them into src/lib/pregen/. Safe to call repeatedly (e.g. from
+ * a Vite plugin on every dev-server start / build) — it's a pure read+write
+ * of generated files, no state carried between calls.
+ */
+export function generateCompetitionsData(): void {
+	const DATA_ROOT = path.resolve('./static/boxiv');
 
-export const competitions: Competition[] = fs
-	.readdirSync(DATA_ROOT, { withFileTypes: true })
-	.filter((d) => d.isDirectory())
-	.map((d) => loadCompetition(path.join(DATA_ROOT, d.name)))
-	.sort((a, b) => a.name.localeCompare(b.name));
+	const competitions: Competition[] = fs
+		.readdirSync(DATA_ROOT, { withFileTypes: true })
+		.filter((d) => d.isDirectory())
+		.map((d) => loadCompetition(path.join(DATA_ROOT, d.name)))
+		.sort((a, b) => a.name.localeCompare(b.name));
 
-const siteConfigPath = path.join(DATA_ROOT, 'index.yaml');
-const siteConfig = readYaml<SiteConfigYaml>(siteConfigPath);
+	const siteConfigPath = path.join(DATA_ROOT, 'index.yaml');
+	const siteConfig = readYaml<SiteConfigYaml>(siteConfigPath);
 
-const outputPath = path.resolve('./src/lib/pregen/competitions-data.json');
-fs.writeFileSync(outputPath, JSON.stringify(competitions, null, 2));
-const siteConfigOutputPath = path.resolve('./src/lib/pregen/site-config.json');
-fs.writeFileSync(siteConfigOutputPath, JSON.stringify(siteConfig, null, 2));
-console.log('✅ Competition data generated successfully!');
+	const outputPath = path.resolve('./src/lib/pregen/competitions-data.json');
+	fs.writeFileSync(outputPath, JSON.stringify(competitions, null, 2));
+	const siteConfigOutputPath = path.resolve('./src/lib/pregen/site-config.json');
+	fs.writeFileSync(siteConfigOutputPath, JSON.stringify(siteConfig, null, 2));
+	console.log('✅ Competition data generated successfully!');
+}
+
+// Allow running this file directly (`bun run ./src/lib/pregen/generate-competitions-data.ts`
+// or `npx tsx ...`) for manual/CI regeneration, in addition to being imported
+// as a module by the Vite plugin in vite.config.ts.
+const isMain = process.argv[1] && import.meta.url === `file://${process.argv[1]}`;
+if (isMain) {
+	generateCompetitionsData();
+}
