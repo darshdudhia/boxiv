@@ -31,7 +31,7 @@
 	});
 </script>
 
-<SvelteSeo title="Olympiads — aoXiv" description="Explore astronomy and astrophysics olympiads" />
+<SvelteSeo title="Olympiads — boXiv" description="Explore biology olympiads" />
 
 <section id="olympiads" class="mb-4">
 	<Title
