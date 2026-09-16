@@ -18,7 +18,7 @@
 	}
 </script>
 
-<SvelteSeo title="{metadata.title} — aoXiv Blog" description={metadata.description} />
+<SvelteSeo title="{metadata.title} — boXiv Blog" description={metadata.description} />
 
 <article class="pb-10">
 	<!-- Back link -->
