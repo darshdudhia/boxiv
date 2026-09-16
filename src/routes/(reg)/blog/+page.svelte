@@ -16,11 +16,11 @@
 	}
 </script>
 
-<SvelteSeo title="Blog — aoXiv" description="Updates, articles and anything related to aoXiv." />
+<SvelteSeo title="Blog — boXiv" description="Updates, articles and anything related to boXiv." />
 
 <Title
 	title="Blog"
-	description="A collection of updates and articles closely or distantly related to astronomy and astrophysics olympiads."
+	description="A collection of updates and articles closely or distantly related to biology olympiads."
 />
 
 {#if data.posts.length === 0}
