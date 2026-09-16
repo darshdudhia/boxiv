@@ -1,9 +1,0 @@
-name: "USAAAO 2014"
-
-papers:
-  - examDuration: 150
-    link: "/aoxiv/usaaao/2014/paper.pdf"
-    solutionLink: "/aoxiv/usaaao/2014/solutions.pdf"
-    category: "NAC"
-
-problems: []
