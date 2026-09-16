@@ -340,7 +340,7 @@ function loadCompetition(compDir: string): Competition {
 	};
 }
 
-const DATA_ROOT = path.resolve('./static/aoxiv');
+const DATA_ROOT = path.resolve('./static/boxiv');
 
 export const competitions: Competition[] = fs
 	.readdirSync(DATA_ROOT, { withFileTypes: true })
