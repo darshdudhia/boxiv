@@ -193,6 +193,25 @@ function problemFiles(problem: Problem): { label: string; url: string }[] {
 	return files;
 }
 
+/** Same as problemFiles, but for a whole-paper entry (no discrete problem breakdown). */
+function paperFiles(paper: Paper): { label: string; url: string }[] {
+	const entries: [string, string | undefined][] = [
+		['Paper', paper.link],
+		['Solution', paper.solutionLink],
+		['Answer Sheet', paper.answerSheet],
+		['Marking Scheme', paper.gradingScheme],
+		['Results', paper.results],
+		['Instructions', paper.instructions]
+	];
+	const files = entries
+		.filter((e): e is [string, string] => Boolean(e[1]))
+		.map(([label, url]) => ({ label, url }));
+	for (const url of paper.additionalFiles ?? []) {
+		files.push({ label: url.split('/').pop() ?? 'File', url });
+	}
+	return files;
+}
+
 /** Build the flat search index consumed by GlobalSearch.svelte. */
 export function getSearchIndex(): SearchItem[] {
 	const items: SearchItem[] = [];
@@ -227,6 +246,38 @@ export function getSearchIndex(): SearchItem[] {
 					]
 						.join(' ')
 						.toLowerCase()
+				});
+			}
+
+			// No individually-catalogued problems for this edition (common for
+			// whole-paper archives like biology olympiads) — index each paper
+			// itself instead, so the edition still shows up in search.
+			if (edition.problems.length === 0) {
+				edition.papers.forEach((paper, idx) => {
+					const key = `${comp.id}-${edition.year}-paper-${idx}`;
+					if (seen.has(key)) return;
+					seen.add(key);
+					items.push({
+						olympiadId: comp.id,
+						olympiadName: comp.name,
+						olympiadIcon: icon,
+						year: edition.year,
+						problem: {
+							number: '',
+							title: paper.category ?? 'Question Paper',
+							files: paperFiles(paper)
+						},
+						searchText: [
+							comp.name,
+							comp.shortName,
+							comp.id,
+							String(edition.year),
+							edition.location ?? '',
+							paper.category ?? ''
+						]
+							.join(' ')
+							.toLowerCase()
+					});
 				});
 			}
 		}
