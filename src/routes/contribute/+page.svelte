@@ -27,13 +27,13 @@
 </script>
 
 <SvelteSeo
-	title="Contribute — aoXiv"
-	description="How to add problems, solutions, and new olympiads to the aoXiv archive."
+	title="Contribute — boXiv"
+	description="How to add problems, solutions, and new olympiads to the boXiv archive."
 />
 
 <Title
 	title="Contribute"
-	description="aoXiv is a community-maintained, open archive. Every problem, solution, and result here was added by someone like you — here's how to add more."
+	description="boXiv is a community-maintained, open archive. Every problem, solution, and result here was added by someone like you — here's how to add more."
 />
 
 <div class="mx-auto flex max-w-2xl flex-col gap-8">
@@ -67,7 +67,7 @@
 			</div>
 			<p class="mt-0 mb-4 text-sm text-muted-foreground">
 				All archive data is plain files in the repo — no database. Each olympiad is a folder under
-				<code class="rounded bg-muted px-1.5 py-0.5 text-xs">static/aoxiv/</code>, and each year is a
+				<code class="rounded bg-muted px-1.5 py-0.5 text-xs">static/boXiv/</code>, and each year is a
 				subfolder holding its PDFs plus one YAML file that describes them.
 			</p>
 			<ol class="m-0 flex list-none flex-col gap-3 p-0">
@@ -90,7 +90,7 @@
 					<span class="pt-0.5 text-sm text-foreground/90">
 						Drop the PDFs into
 						<code class="rounded bg-muted px-1.5 py-0.5 text-xs"
-							>static/aoxiv/&lt;olympiad&gt;/&lt;year&gt;/</code
+							>static/boXiv/&lt;olympiad&gt;/&lt;year&gt;/</code
 						> (create the folders if the year is new).
 					</span>
 				</li>
