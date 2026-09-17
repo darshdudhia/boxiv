@@ -5,7 +5,7 @@
 		children,
 		title,
 		description,
-		seoTitle = title + ' — aoXiv',
+		seoTitle = title + ' — boXiv',
 		seoDescription = description
 	} = $props();
 	import Title from '$lib/components/Title.svelte';
