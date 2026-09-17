@@ -20,12 +20,24 @@
 	const index: SearchItem[] = getSearchIndex();
 	const haystack = index.map((i) => i.searchText);
 
-	/** Wraps fuzzy-matched characters in <mark> for a single display field. */
-	function highlight(text: string, q: string): string {
-		if (!text || !q) return text;
-		const [idxs, info, order] = uf.search([text.toLowerCase()], q.toLowerCase());
-		if (!idxs?.length || !order?.length) return text;
-		return uFuzzy.highlight(text, info.ranges[order[0]]);
+	// Ranking/typo-tolerant matching still goes through uFuzzy (once per keystroke,
+	// against the whole haystack). Highlighting is separate and only needs to mark
+	// literal substrings in already-matched results, so it uses a single plain
+	// regex built once per query instead of re-running fuzzy search per field.
+	const highlightMatcher = $derived.by(() => {
+		const terms = query
+			.trim()
+			.split(/\s+/)
+			.filter(Boolean)
+			.map((t) => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+		if (!terms.length) return null;
+		return new RegExp(`(${terms.join('|')})`, 'gi');
+	});
+
+	/** Wraps literal query-term matches in <mark> for a single display field. */
+	function highlight(text: string, matcher: RegExp | null): string {
+		if (!text || !matcher) return text;
+		return text.replace(matcher, '<mark>$1</mark>');
 	}
 
 	const MAX_RESULTS = 50;
@@ -160,7 +172,7 @@
 						</p>
 					{:else}
 						<ul>
-							{#each results as item, i (item.olympiadId + item.year + item.problem.number)}
+							{#each results as item, i (item.olympiadId + item.year + item.problem.number + item.problem.title)}
 								<li>
 									<a
 										href={resolve(`/olympiads/${item.olympiadId}#year-${item.year}`)}
@@ -184,22 +196,22 @@
 												class="h-4 w-auto shrink-0 text-base"
 											/>
 											<!-- eslint-disable-next-line svelte/no-at-html-tags -->
-											<span>{@html highlight(item.olympiadName, query)}</span>
+											<span>{@html highlight(item.olympiadName, highlightMatcher)}</span>
 											<span aria-hidden="true">·</span>
 											<!-- eslint-disable-next-line svelte/no-at-html-tags -->
-											<span class="font-mono">{@html highlight(String(item.year), query)}</span>
+											<span class="font-mono">{@html highlight(String(item.year), highlightMatcher)}</span>
 										</div>
 
 										<!-- Problem number + title -->
 										<div class="flex items-baseline gap-2">
 											<span class="font-mono font-semibold text-primary">
 												<!-- eslint-disable-next-line svelte/no-at-html-tags -->
-												{@html highlight(item.problem.number, query)}
+												{@html highlight(item.problem.number, highlightMatcher)}
 											</span>
 											{#if item.problem.title}
 												<span class="font-medium text-foreground">
 													<!-- eslint-disable-next-line svelte/no-at-html-tags -->
-													{@html highlight(item.problem.title, query)}
+													{@html highlight(item.problem.title, highlightMatcher)}
 												</span>
 											{/if}
 										</div>
