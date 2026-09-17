@@ -35,7 +35,7 @@
 </script>
 
 <SvelteSeo
-	title={`${contest.name} — aoXiv`}
+	title={`${contest.name} — boXiv`}
 	description={contest.desc ??
 		`An archive of problems and solutions from the ${contest.name}, in PDF format.`}
 	keywords={siteConfig.seo.contestKeywords}
