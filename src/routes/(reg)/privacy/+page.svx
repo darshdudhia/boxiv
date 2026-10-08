@@ -1,10 +1,10 @@
 ---
 title: Privacy Policy
 description: "Last updated: 22 July 2026"
-seoDescription: aoXiv's Privacy Policy
+seoDescription: boXiv's Privacy Policy
 ---
 
-This privacy policy describes how aoXiv ("we", "us") handles information when you use aoXiv (the "Site").
+This privacy policy describes how boXiv ("we", "us") handles information when you use boXiv (the "Site").
 
 ## Information we collect
 
@@ -21,7 +21,7 @@ The information stored in our database when you create an account is:
 
 - Your name and email address (as provided by GitHub)
 - Your profile picture URL (as provided by GitHub)
-- The date your aoXiv account is created
+- The date your boXiv account is created
 - Your account role (default: user)
 
 ## How we use your information
@@ -36,7 +36,7 @@ We do not sell, share, or transfer your personal information to any third party 
 
 ## Data retention
 
-Your account data is retained for as long as your account exists. You may request deletion of your account and associated data at any time by contacting us via the [GitHub repository](https://github.com/bunchofcellulose/aoXiv).
+Your account data is retained for as long as your account exists. You may request deletion of your account and associated data at any time by contacting us via the [GitHub repository](https://github.com/darshdudhia/boxiv).
 
 ## Third-party services
 
@@ -48,4 +48,4 @@ The only cookie we set is the session cookie [BetterAuth](https://better-auth.co
 
 ## Contact
 
-If you have any questions about this policy, please reach out via the [GitHub repository](https://github.com/bunchofcellulose/aoXiv).
+If you have any questions about this policy, please reach out via the [GitHub repository](https://github.com/darshdudhia/boxiv).
