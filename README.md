@@ -1,36 +1,51 @@
-# aoXiv
+# boXiv
 
-A comprehensive archive of astronomy and astrophysics olympiads — problems, solutions, and grading schemes from IOAA, INAO, and many more international, regional, and national competitions.
+A comprehensive archive of biology olympiads — question papers, solutions, answer booklets, and grading schemes from the IBO, INBO, ABO, and more international, regional, and national competitions.
 
-This project is forked from [phoxiv](https://phoxiv.org), adapted for astronomy and astrophysics olympiad archives.
+This project is forked from [phoxiv](https://phoxiv.org), adapted for biology olympiad archives.
 
 ## Development
 
 ```bash
 # Install dependencies
-bun install
+pnpm install
 
 # Run development server
-bun run dev
+pnpm dev
 
 # Build for production
-bun run build
+pnpm build
 ```
+
+(`npm` or `bun` work too — use whichever you have.)
 
 Browsing works without any configuration. Authentication (login / profile /
 contribute / admin) stays disabled until the environment variables below are set.
 
+### Environment variables
+
+| Variable | Purpose |
+| --- | --- |
+| `DATABASE_URL` | Postgres connection string (Neon). Stores users, sessions, and roles only — archive content is file-based. |
+| `BETTER_AUTH_SECRET` | Secret used by BetterAuth to sign sessions. |
+| `BETTER_AUTH_URL` | Public base URL of the site (e.g. `https://boxiv.vercel.app`). |
+| `GITHUB_CLIENT_ID` / `GITHUB_CLIENT_SECRET` | GitHub OAuth app credentials for sign-in. |
+| `TRUSTED_ORIGINS` | Optional. Comma-separated list of extra origins allowed to call the auth API. |
+| `SUPERADMIN_EMAIL` | Optional. This account's role and ban status can't be changed from the admin panel. |
+
+Database schema commands (Drizzle): `pnpm db:generate`, `pnpm db:migrate`, `pnpm db:push`, `pnpm db:studio`.
+
 ## Adding more competitions
 
-The archive data lives in `static/contests/`. Each competition is one folder, and each year is a subfolder with one year YAML.
+The archive data lives in `static/boxiv/`. Each competition is one folder, and each year is a subfolder with one year YAML.
 
 ### Directory structure
 
 Use this shape:
 
 ```text
-static/contests/
-  <contest-id>/
+static/boxiv/
+  <competition-id>/
     index.yaml
     2026/
       2026.yaml
@@ -42,26 +57,27 @@ static/contests/
 
 Rules:
 
-- `contest-id` should be lowercase and stable (e.g. `ioaa`, `inao`).
+- `competition-id` should be lowercase and stable (e.g. `ibo`, `inbo`, `abo`).
 - Year folders must be 4-digit years (`2024`, `2025`, ...).
 - The year YAML filename must match the folder name exactly (`2025/2025.yaml`).
-- PDF paths referenced in YAML should use `/competitions/<contest-id>/<year>/<file>.pdf`.
+- PDF paths referenced in YAML should use `/boxiv/<competition-id>/<year>/<file>.pdf`.
+- Keep filenames short and mechanical: `th.pdf`, `th_sol.pdf`, `th_a.pdf` / `th_b.pdf` for two-part exams, `pr1.pdf`, `pr2.pdf` for numbered practicals, `<stem>_ans.pdf` for answer sheets/booklets, `<stem>_hi.pdf` for alternate-language versions.
 
 ### `index.yaml` format (competition metadata)
 
 Keep keys in this order for consistency:
 
 ```yaml
-id: ioaa
-name: International Olympiad in Astronomy and Astrophysics
-shortName: IOAA
-website: 'https://ioaa.org/'
-summary: International olympiad for high school students focusing on astronomy and astrophysics.
-icon: '🌎'
-tag: International
-url: 'https://ioaa.org/'
+id: inbo
+name: Indian National Biology Olympiad
+shortName: INBO
+website: 'https://olympiads.hbcse.tifr.res.in/'
+summary: National-level biology olympiad exam in India's science olympiad selection pipeline.
+icon: '🇮🇳'
+tag: National
+url: 'https://olympiads.hbcse.tifr.res.in/how-to-prepare/past-papers/'
 desc: |
-  Short multi-line description of the contest, history, and scope.
+  Short multi-line description of the competition, who runs it, and what the exam looks like.
 ```
 
 Required keys used by the app:
@@ -78,96 +94,61 @@ Allowed `tag` values:
 
 ### Year YAML format (`<year>/<year>.yaml`)
 
-Full example:
+Typical example:
 
 ```yaml
-name: '2026 Astronomy and Astrophysics Olympiad'
-location: 'Virtual & In-Person'
-link: 'https://example.org/2026'
-problemsLink: 'https://example.org/2026/problems'
+name: INBO 2025
+location: Mumbai, India # optional
 
 papers:
-  - examDuration: 180
-    gradingScheme: '/competitions/aao/2026/grading_scheme.pdf'
-    results: '/competitions/aao/2026/results.pdf'
+  - category: Question Paper (English)
+    link: /boxiv/inbo/2025/th.pdf
+    solutionLink: /boxiv/inbo/2025/th_sol.pdf
+    answerSheet: /boxiv/inbo/2025/th_ans.pdf # optional
+    additionalFiles: [/boxiv/inbo/2025/th_hi.pdf] # optional, e.g. Hindi version
+    majorCategory: Theory
+    examDuration: 120 # minutes, optional
+    note: 'Optional free-text note about anything unusual about this paper.'
 
-  - category: 'Round 1'
-    link: '/competitions/aao/2026/r1_problems.pdf'
-    solutionLink: '/competitions/aao/2026/r1_solutions.pdf'
-    answerSheet: '/competitions/aao/2026/r1_answer_sheet.pdf'
-    results: '/competitions/aao/2026/r1_results.pdf'
-    # Overrides the base template duration of 180
-    examDuration: 240
-    # Total contestants is strictly known
-    n: 450
-    camp: 85.5
-
-    scores:
-      - [99.5, 98.2, 95.0, 91.1, 88.0] # Row 1: Always TOTAL Scores
-      - [20.0, 19.5, 15.0, 10.0, 10.0] # Row 2: Problem 1 Scores
-      - [20.0, 20.0, 18.0, 15.0, 12.0] # Row 3: Problem 2 Scores
-
-  - category: 'N'
-    link: '/competitions/aao/2026/n_problems.pdf'
-    # We don't know the total number of participants for this category,
-    # so we use a tilde (~) to explicitly tell the system it is null/unknown.
-    n: ~
-    gold: 92.0
-    silver: 80.0
-    scores:
-      - [98.0, 95.0, 92.0, 89.0, 80.0]
-      - [20.0, 18.0, 15.0, 12.0, 10.0]
-
-problems:
-  - id: 'ao-2026-1'
-    number: '1'
-    name: 'Exoplanet Transit Analysis'
-    category: 'Round 1'
-    author: 'Dr. Jane Astronomer'
-    maxScore: 20
-    link: 'https://example.org/p1'
-    solutionLink: 'https://example.org/s1'
-    answerSheet: 'https://example.org/a1'
-    gradingScheme: 'https://example.org/g1'
-    results: 'https://example.org/r1'
-
-  - id: 'ao-2026-2'
-    number: '2'
-    name: 'Stellar Evolution and HR Diagrams'
-    category: 'Round 1'
-    author: 'Prof. John Astrophysicist'
-
-  - id: 'ao-2026-3'
-    number: '3'
-    name: 'Gravitational Lensing in Galaxy Clusters'
-    category: 'N'
-    maxScore: 15
+problems: []
 ```
 
 Notes:
 
+- `majorCategory` should be one of `Theory`, `Practical`, `Observation`, `Team`/`Group`, or `Overall`, so filtering works across competitions.
+- `link` is the question paper (omit it if only solutions survive). `solutionLink` is the single most useful solutions document. Put extra files (other languages, supplements) in `additionalFiles` rather than inventing extra `papers` entries.
+- If several papers share one solutions file, point each `solutionLink` at the same file.
+- Use `note` for anything a reader would otherwise be confused by (missing files, combined papers, embedded answer keys). Never invent data to fill a gap.
 - The first `papers` item without `category` acts as a base template for all categories.
 - Paper/problem resources may include `link`, `solutionLink`, `gradingScheme`, `additionalFiles`, `answerSheet`, and `results`.
-- In `scores`, row 1 should be total scores; subsequent rows are per-problem scores in order.
-- Use `n: ~` when participant count is unknown/incomplete.
+- `problems` is optional per-question data (`id`, `number`, `name`, `category`, `maxScore`, ...). Only fill it in if you verified the details from the actual paper; otherwise leave it as `[]` (the key must still exist). Editions with no problems are searchable at the paper level.
+- Optional statistics fields on a paper: `scores` (row 1 = total scores, then per-problem rows), `n` (use `n: ~` when unknown), `gold`, `silver`, `bronze`, `hm`, `camp`.
 
 ### After adding or editing data
 
-Regenerate derived data:
+Nothing extra is needed: `competitions-data.json` and `site-config.json` are regenerated automatically at the start of every `pnpm dev` and `pnpm build` (via a Vite plugin). To regenerate manually, run:
 
 ```bash
-bun run pregen
+pnpm pregen
 ```
 
-Then start the app:
+## Blog
 
-```bash
-bun run dev
+Blog posts are `.svx` (Markdown) files in `src/lib/posts/`. The filename becomes the URL slug, and each file starts with frontmatter:
+
+```text
+---
+title: Your post title
+date: 2026-09-16
+description: One-line summary shown on the blog list.
+tags: [meta, update]
+author: boXiv
+---
 ```
 
 ## Contributing
 
-Want to add problems or help maintain the site? Open a PR.
+Want to add papers or help maintain the site? Open a PR or an issue.
 
 ## License
 
