@@ -1,6 +1,6 @@
 ---
 title: Privacy Policy
-description: "Last updated: 22 July 2026"
+description: "Last updated: October 8 2026"
 seoDescription: boXiv's Privacy Policy
 ---
 
